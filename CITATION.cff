@@ -3,7 +3,8 @@ message: "If you use this software or its results, please cite it as below."
 title: "Acting on Doubt (AoD): priced escalation and delay-corrected learning for budget-constrained IoT intrusion response — code, simulator and results"
 type: software
 version: 1.0.0
-date-released: 2026-10-20
+doi: 10.5281/zenodo.23543240
+date-released: 2026-10-21
 license: MIT
 repository-code: "https://github.com/amrcs2014-pixel/acting-on-doubt"
 authors:

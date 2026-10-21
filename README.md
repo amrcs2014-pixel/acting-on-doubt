@@ -1,5 +1,7 @@
 # Acting on Doubt (AoD)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23543240.svg)](https://doi.org/10.5281/zenodo.23543240)
+
 Code, simulator and results accompanying the manuscript *Acting on Doubt: Priced Escalation and Delay-Corrected Learning for Budget-Constrained IoT Intrusion Response*. The manuscript itself is not included in this repository.
 
 The study is a **trace-driven simulation**:
@@ -66,4 +68,4 @@ Software: Python 3.11, NumPy 2.4, SciPy 1.17, scikit-learn 1.6, PyTorch 2.14.
 
 - **Code** (`aod/`, `scripts/`, `tests/`): MIT, see [`LICENSE`](LICENSE).
 - **Figures and result records** (`figures/`, `results/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Citing:** see [`CITATION.cff`](CITATION.cff). The archived release has a Zenodo DOI.
+- **Citing:** see [`CITATION.cff`](CITATION.cff). The archived release v1.0.0 is at Zenodo, DOI [10.5281/zenodo.23543240](https://doi.org/10.5281/zenodo.23543240).
