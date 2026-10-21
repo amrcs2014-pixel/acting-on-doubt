@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Acting on Doubt (AoD): priced escalation and delay-corrected learning for budget-constrained IoT intrusion response — code, simulator and results"
+type: software
+version: 1.0.0
+date-released: 2026-10-20
+license: MIT
+repository-code: "https://github.com/amrcs2014-pixel/acting-on-doubt"
+authors:
+  - name: "amrcs2014-pixel"
+keywords:
+  - intrusion response
+  - Internet of Things
+  - constrained POMDP
+  - reinforcement learning
+  - delayed labels
+  - energy budget

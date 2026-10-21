@@ -1,0 +1,38 @@
+__pycache__/
+*.pyc
+
+# LaTeX build files (the compiled paper/main.pdf is kept)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.synctex.gz
+paper/*.toc
+paper/build.log
+paper/bib.log
+
+# source datasets are not redistributed (see data/README.md); their metadata json files are kept
+data/*.parquet
+
+# machine-specific run logs and job lists
+results/*.log
+results/jobs.txt
+
+# superseded or invalid result sets kept only locally
+results/raw/_invalid_v1/
+results/raw/_superseded_v2/
+results/cache/_old_dp/
+
+# local working notes and one-off diagnostics for this machine
+PROGRESS.md
+scripts/pipeline.py
+scripts/swap_e1.py
+scripts/jobcheck.py
+scripts/procmon.ps1
+
+# local release archives for manual Zenodo upload
+release/
+
+# the manuscript (LaTeX source, PDF, generated tables) and any .docx manuscripts are never published here
+paper/
+*.docx

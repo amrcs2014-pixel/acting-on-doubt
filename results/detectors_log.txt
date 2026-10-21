@@ -1,0 +1,6 @@
+ciciot2023 {'dataset': 'ciciot2023', 'seed': 0, 'n_train': 107516, 'n_cal': 43378, 'n_test': 62197, 'weak_features': ['Number', 'Header_Length', 'HTTPS', 'Time_To_Live', 'IAT', 'Max', 'syn_flag_number', 'rst_flag_number'], 'n_features': 39, 'weak_auc': 0.9289, 'strong_auc': 0.9755, 'weak_ap': 0.9881, 'strong_ap': 0.9959, 'exclude_families': []}
+   benign/attack test flows: 8849 53348
+edgeiiot {'dataset': 'edgeiiot', 'seed': 0, 'n_train': 97645, 'n_cal': 38577, 'n_test': 56918, 'weak_features': ['tcp.flags', 'mqtt.hdrflags', 'tcp.len', 'tcp.connection.rst', 'tcp.connection.fin', 'http.content_length', 'http.request.method', 'icmp.seq_le'], 'n_features': 34, 'weak_auc': 0.7916, 'strong_auc': 0.8825, 'weak_ap': 0.9729, 'strong_ap': 0.9844, 'exclude_families': []}
+   benign/attack test flows: 4512 52406
+nfton_v3 {'dataset': 'nfton_v3', 'seed': 0, 'n_train': 88812, 'n_cal': 30823, 'n_test': 50349, 'weak_features': ['OUT_BYTES', 'SHORTEST_FLOW_PKT', 'L7_PROTO', 'TCP_WIN_MAX_IN', 'SERVER_TCP_FLAGS', 'IN_BYTES', 'CLIENT_TCP_FLAGS', 'LONGEST_FLOW_PKT'], 'n_features': 47, 'weak_auc': 0.9213, 'strong_auc': 0.9786, 'weak_ap': 0.9876, 'strong_ap': 0.9972, 'exclude_families': []}
+   benign/attack test flows: 4664 45685

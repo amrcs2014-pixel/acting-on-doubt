@@ -1,0 +1,12 @@
+{
+  "title": "Acting on Doubt (AoD): priced escalation and delay-corrected learning for budget-constrained IoT intrusion response — code, simulator and results",
+  "description": "Code, trace-driven simulator, raw result records and figures accompanying the manuscript 'Acting on Doubt: Priced Escalation and Delay-Corrected Learning for Budget-Constrained IoT Intrusion Response' (the manuscript itself is not included). Detection and response are posed as one budget-constrained POMDP in which a device may wait, contain itself, or pay to escalate evidence to a gateway detector, and learning uses only delayed, censored breach confirmations (IPCW-corrected). The study is simulation-only: detector scores come from real flows of CICIoT2023, Edge-IIoTset and NF-ToN-IoT-v3; the source datasets are not redistributed (see data/README.md), but the cached detector score pools allow every experiment to be rerun.",
+  "upload_type": "software",
+  "license": "mit",
+  "creators": [
+    {"name": "amrcs2014-pixel"}
+  ],
+  "keywords": ["intrusion response", "Internet of Things", "constrained POMDP", "reinforcement learning",
+               "delayed labels", "inverse probability of censoring weighting", "energy budget", "edge security"],
+  "version": "1.0.0"
+}
