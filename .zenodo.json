@@ -4,7 +4,7 @@
   "upload_type": "software",
   "license": "mit",
   "creators": [
-    {"name": "amrcs2014-pixel"}
+    {"name": "Abdelhaliem, Amr H.", "affiliation": "Irbid National University"}
   ],
   "keywords": ["intrusion response", "Internet of Things", "constrained POMDP", "reinforcement learning",
                "delayed labels", "inverse probability of censoring weighting", "energy budget", "edge security"],
